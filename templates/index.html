@@ -1,0 +1,23 @@
+<head>
+    <title>Get Spotify Lyrics</title>
+</head>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+<body>
+
+
+    <div class="link">
+        <a href="?">Press to get lyrics</a>
+    </div>
+
+    <div class="box">
+        <pre class="headinfo">{{headinfo}}</pre>
+        <pre>{{lyrics}}</pre>
+    </div>
+
+    <div class="link">
+        <pre>Created by Diego Cabello</pre>
+            <a href="{{ url_for('about') }}">About</a>
+    </div>
+
+</body>

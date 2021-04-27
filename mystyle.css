@@ -1,0 +1,26 @@
+body
+{
+    margin:0 ;
+    padding:0 ;
+    background: #000000;
+}
+
+pre.lyrics
+{
+      margin: auto;
+  padding: 10px;
+  width: 50%;
+  line-height: 1.5;
+  border: 12px #1ED760;
+  font-family: Georgia;
+  font-size: 14px;
+
+}
+
+::selection {
+  background: #ffb7b7
+}
+::-moz-selection {
+  background: #ffb7b7
+}
+

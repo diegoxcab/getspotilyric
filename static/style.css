@@ -1,0 +1,56 @@
+body
+{
+    margin:0 ;
+    padding:0 ;
+    background: #7bbee5;
+}
+
+pre
+{
+  margin: auto;
+  padding: 10px;
+  width: 50%;
+  line-height: 1.5;
+  font-family: Georgia;
+  font-size: 18px;
+}
+
+pre.headinfo
+{
+    text-align: center;
+}
+
+div.box{
+  margin: auto;
+  margin-bottom: 10px;
+  border: solid #1ED760;
+  border-width: 10px;
+  width: 50%;
+}
+
+div.link{
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+::selection {
+  background: #ffb7b7
+}
+::-moz-selection {
+  background: #ffb7b7
+}
+
+a{
+    background-color:#1ED760;
+	border-radius:41px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:13px 51px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
